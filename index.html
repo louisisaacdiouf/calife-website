@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calife - Accueil</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <div id="navbar">
@@ -15,16 +16,39 @@
             <div id="welcome-block-overlay"></div>
             <div id="welcome-logo-zone">
                 <div id="logo-and-tagline">
-                    <img src="assets/img/logo-animated.svg" id="welcome-logo">
+                    <img src="/assets/img/logo-animated.svg" id="welcome-logo" class="m-auto">
                     <div id="welcome-tagline-zone">
-                        <img src="assets/img/tagline-only.svg" id="welcome-tagline">
+                        <img src="/assets/img/tagline-only.svg" id="welcome-tagline">
                     </div>
+                    <span id="welcome-slogan">FROM ZERO TO HERO</span>
                 </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row bg-black border-0">
+            <div id="about-txt" class="about-div">
+                <h1 id="about-txt-title" class="flex flex-row gap-x-2 text-white"><b class="golden-txt">|</b> calife</h1>
+                <p id="about-txt-presentation" class="text-white text-justify">
+                    Chercher la lumière au fond de ce tunnel, Trouver sa voie, trouver son rythme, <b>Partir de rien,</b>
+Tomber plus bas, encore plus bas, Puiser de sa sueur pour honorer son sang, Voir des échecs
+s’empiler, et les rêves s’éloigner, Tendre la main à des gens qui te coupent le bras, Tenter en
+vain, récidiver, tenter encore et encore.
+On aurait pu croire que notre vie allait se résumer à ça, et c’est peut-être vrai, mais ils ne
+savaient pas qu’on avait de très grandes ambitions. Grandir avec des échecs qui ont fini en
+succès, Ce qui était rien hier est devenu important aujourd’hui. Chérir le mal, la souffrance, la
+solitude pour <b>devenir des héros</b> de l’ombre. De zéro à héros et c’est parce qu’ils l’ont fait que
+tout est possible maintenant. Et c’est parce qu’ils l’ont fait qu’on les surnomme CALIFE. Et
+c’est parce qu’ils le portent qu’ils aspirent eux aussi à devenir <b>des CALIFES.</b>
+                </p>
+            </div>
+
+            <div id="about-img" class="about-div">
+                
             </div>
         </div>
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

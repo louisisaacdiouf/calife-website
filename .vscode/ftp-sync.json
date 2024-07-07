@@ -1,0 +1,27 @@
+{
+    "remotePath": "./",
+    "host": "ftp.calife-zh.com",
+    "username": "louis.diouf@calife-zh.com",
+    "password": "Peterson@MAD2026",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
