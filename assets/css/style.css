@@ -112,10 +112,6 @@ html, body {
     grid-template-columns: 1fr 1fr;
     color: white;
 }
-.about-div {
-    flex-grow: 1;
-    padding: 8vh 5vw;
-}
 #about-txt {
     font-family: var(--pop);
 }
