@@ -141,3 +141,6 @@ html, body {
 h2 {
     font-family: var(--pop);
 }
+#collection-description {
+    font-family: var(--pop);
+}

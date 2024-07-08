@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .tenues-box {
-    @apply p-2 border border-yellow-600 rounded-xl;
+    @apply p-2 border border-[#daa520] rounded-xl;
 }
 .tenues {
     @apply transition-all duration-500 ease-in-out bg-cover cursor-pointer rounded-xl w-60 h-80 grayscale hover:grayscale-0;
