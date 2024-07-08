@@ -661,6 +661,10 @@ video {
        column-gap: 2rem;
 }
 
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -839,6 +843,11 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-x-8 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 
   .md\:pl-0 {
