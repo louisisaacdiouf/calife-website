@@ -28,7 +28,7 @@ html, body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-image: url('../img/calife-bg.jpg');
+    background-image: url('../img/model.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,4 +137,7 @@ html, body {
 }
 .golden-txt {
     color: goldenrod;
+}
+h2 {
+    font-family: var(--pop);
 }

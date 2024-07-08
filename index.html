@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calife - Accueil</title>
+    <link rel="shortcut icon" href="/assets/img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="/src/output.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <style>
+        .tenues-box {
+            @apply p-2 border border-yellow-600 rounded-xl;
+        }
+        .tenues {
+            @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+        }
+    </style>
 </head>
-<body>
+<body class="text-white bg-black">
     <div id="navbar">
 
     </div>
@@ -25,10 +34,10 @@
             </div>
         </div>
 
-        <div class="flex flex-col sm:flex-row bg-black border-0 py-12">
+        <div class="flex flex-col py-12 border-0 sm:flex-row">
             <div id="about-txt" class="p-8 md:w-1/2">
-                <h1 id="about-txt-title" class="flex flex-row gap-x-2 text-white"><b class="golden-txt">|</b> calife</h1>
-                <p id="about-txt-presentation" class="text-white text-justify">
+                <h1 id="about-txt-title" class="flex flex-row text-white gap-x-2"><b class="golden-txt">|</b> calife</h1>
+                <p id="about-txt-presentation" class="text-justify text-white">
                     Chercher la lumière au fond de ce tunnel, Trouver sa voie, trouver son rythme, <b>Partir de rien,</b>
 Tomber plus bas, encore plus bas, Puiser de sa sueur pour honorer son sang, Voir des échecs
 s’empiler, et les rêves s’éloigner, Tendre la main à des gens qui te coupent le bras, Tenter en
@@ -42,8 +51,30 @@ c’est parce qu’ils le portent qu’ils aspirent eux aussi à devenir <b>des 
                 </p>
             </div>
 
-            <div id="about-img" class="px-8 md:w-1/2 flex flex-row">
-                <img class="m-auto rotate-6 md:h-96 md:w-auto grayscale rounded-lg" src="/assets/img/mens.jpg" alt="Man Free">
+            <div class="flex flex-row items-center justify-center pl-8 md:pl-0 md:w-1/2">
+                <img class="rounded-lg h-72 md:h-96 md:w-auto grayscale" src="/assets/img/woman.jpg" alt="Woman">
+                <img class="translate-y-4 rounded-lg shadow-xl rotate-6 h-72 md:h-96 md:w-auto grayscale" src="/assets/img/man.jpg" alt="Man">
+            </div>
+        </div>
+
+        <div class="flex flex-col py-8 gap-y-12">
+            <div class="flex flex-col items-center justify-center w-screen gap-y-2">
+                <img src="/assets/img/crown.svg" alt="Crown" class="w-12">
+                <h2 class="text-4xl font-extrabold tracking-wide text-center">Calife : Une Collection, Une Révolution</h2>
+            </div>
+
+            <div class="flex flex-col items-center justify-center w-full md:flex-row gap-x-8">
+                <div class="tenues-box">
+                    <div class="tenues" style="background-image: url('/assets/img/tenue-femme-1.jpg');"></div>
+                </div>
+
+                <div class="tenues-box">
+                    <div class="tenues" style="background-image: url('/assets/img/tenue-femme-2.jpg');"></div>
+                </div>
+
+                <div class="tenues-box">
+                    <div class="tenues" style="background-image: url('/assets/img/tenue-femme-3.jpg');"></div>
+                </div>
             </div>
         </div>
     </div>
