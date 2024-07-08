@@ -1,6 +1,6 @@
-window.onload = () => {
-    revealSlogan();
-}
+setTimeout(() => {
+    revealSlogan();    
+}, 500);
 
 async function revealSlogan () {
     await new Promise((resolve) => {
