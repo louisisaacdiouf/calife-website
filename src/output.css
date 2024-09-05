@@ -588,8 +588,16 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
 .m-auto {
   margin: auto;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -659,6 +667,14 @@ video {
   row-gap: 2rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -674,6 +690,11 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-12 {
@@ -703,11 +724,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -715,10 +731,6 @@ video {
 
 .font-extrabold {
   font-weight: 800;
-}
-
-.font-thin {
-  font-weight: 100;
 }
 
 .font-extralight {
@@ -773,6 +785,49 @@ video {
 .tenues:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.why-calife {
+  text-align: left;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+
+@media (min-width: 768px) {
+  .why-calife {
+    text-align: center;
+  }
+}
+
+.creation-process-carousel {
+  display: inline-block;
+  height: 8rem;
+  width: 25%;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.creation-process-carousel:hover {
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 768px) {
+  .creation-process-carousel {
+    height: 16rem;
+  }
+}
+
+.why-slide .creation-process-carousel {
+  display: inline-block;
 }
 
 @media (min-width: 640px) {

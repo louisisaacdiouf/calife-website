@@ -8,3 +8,12 @@
 .tenues {
     @apply transition-all duration-500 ease-in-out bg-cover cursor-pointer rounded-xl w-60 h-80 grayscale hover:grayscale-0;
 }
+.why-calife {
+    @apply text-xs tracking-widest text-left md:text-center font-extralight;
+}
+.creation-process-carousel {
+    @apply inline-block w-1/4 h-32 transition-all duration-500 ease-in-out bg-center bg-cover cursor-pointer md:h-64 grayscale hover:grayscale-0;
+}
+.why-slide .creation-process-carousel {
+    @apply inline-block;
+}

@@ -141,6 +141,29 @@ html, body {
 h2 {
     font-family: var(--pop);
 }
-#collection-description {
+#collection-description, #why-calife {
     font-family: var(--pop);
+}
+.why-calife {
+    font-family: var(--pop);
+}
+.why-slide {
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.slider {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.slider:hover .why-slide {
+    animation-play-state: paused;
 }

@@ -39,3 +39,6 @@ function LettersAnimation(selector, interval = 5000, speed = 30, loop = true) {
         }, interval);
     });
 }
+
+var copy = document.querySelector("#carousel").cloneNode(true);
+document.querySelector("#carousel-container").appendChild(copy);
