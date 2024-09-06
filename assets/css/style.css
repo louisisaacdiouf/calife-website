@@ -167,3 +167,6 @@ h2 {
 .slider:hover .why-slide {
     animation-play-state: paused;
 }
+.yellow-color {
+    color: goldenrod;
+}
