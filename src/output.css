@@ -592,12 +592,12 @@ video {
   position: relative;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .m-0 {
   margin: 0px;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mt-8 {
@@ -692,12 +692,12 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-0 {
   padding: 0px;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-8 {
@@ -796,7 +796,7 @@ video {
 }
 
 .why-calife {
-  text-align: left;
+  text-align: justify;
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 200;
